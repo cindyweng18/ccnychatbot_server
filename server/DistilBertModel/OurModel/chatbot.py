@@ -92,7 +92,8 @@ def preprocessing(df):
   train_sampler = RandomSampler(train_data)
   train_dataloader = DataLoader(train_data, sampler=train_sampler, batch_size=batch_size) #121
 
-  return train_labels, train_dataloader
+  # Cindy: returns modified df
+  return df, train_labels, train_dataloader
 
 
 def define_model(device, train_labels):
@@ -184,7 +185,8 @@ def training_model(model, train_dataloader, device, weights):
 
   train_losses=[]
 
-  epochs = 200
+  #cindy: changed epochs
+  epochs = 25
   for epoch in range(epochs):
       
     print('\n Epoch {:} / {:}'.format(epoch + 1, epochs))
@@ -205,9 +207,14 @@ def main():
   """
     Main function
   """
-  device = torch.device("cuda")
+  # cindy: change device type depending on cuda or not
+  device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
   df = get_data()
-  train_labels, train_dataloader = preprocessing(df)
+
+  # cindy: create a new csv with typos included
+  df_typos, train_labels, train_dataloader = preprocessing(df)
+  df_typos.to_csv('../data/dataset_typos')
+
   model, weights = define_model(device, train_labels)
   training_model(model, train_dataloader, device, weights)
 

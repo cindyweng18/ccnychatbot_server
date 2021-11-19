@@ -695,6 +695,24 @@
     {
       "tag": "financialaid_loan_rates",
       "responses": ["For undergraduate students the loan interest rate is 3.73 % and for graduate students the loan interest rate is 5.28 %"]
-    }
+    },
+    {
+      "tag": "location",
+      "responses": ["We are located at 160 Convent Avenue, New York, NY, 10031", 
+                      "The City College of New York is located at 160 Convent Avenue, New York, NY, 10031",
+                      "You can find us 160 Convent Avenue, New York, NY, 10031",
+                      "Our address is 160 Convent Avenue, New York, NY, 10031"
+      ]
+  },
+  {
+      "tag":"phone",
+      "responses": ["Our general phone number is 212-650-7000. For more specific phone numbers, find them here https://www.ccny.cuny.edu/about/contact",
+                      "You can reach us at 212-650-7000. For more info, please visit https://www.ccny.cuny.edu/about/contact"
+      ]
+  },
+  {
+      "tag": "study_areas",
+      "responses": ["The areas of study offered at City College can be found on https://www.ccny.cuny.edu/academics/areas-of-study"]
+  }
  ]
 }

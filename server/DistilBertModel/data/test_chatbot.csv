@@ -168,7 +168,6 @@ What kind of programs do students pursue at the School of Education?,soe_program
 What programs are available at the School of Education?,soe_programs
 How can I contact the Dean of the School of Education?,soe_contact
 I want to contact the Dean of the School of Education.,soe_contact
-Text,Label
 How can I visit the campus?,visit_campus
 Can I visit the campus in virtual?,visit_campus
 What is the minimum requirement for Group Campus Virtual Walks?,visit_requirement
@@ -338,3 +337,19 @@ where is the ID offcie,id_location
 where can I prk at city college?,parking
 What is the numbet for public safety?,public_safety_contact
 where is the ID office,id_location
+where is city college?, location
+where is city college located?, location
+what is city college address?, location
+what is the address of city college?, location
+what is the address?, location
+address?, location
+location?, location
+what is the phone number of city college?, phone
+what is the phone number?, phone
+phone number?, phone
+number?, phone
+what is the number of city college?, phone
+how can i contact you?, phone
+how can i contact city college?, phone
+what can i study?, study_areas
+what are the areas of study?, study_areas
