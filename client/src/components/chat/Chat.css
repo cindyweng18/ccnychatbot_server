@@ -1,0 +1,33 @@
+.chat-mes {
+    text-align: right;
+    background: white;
+    width: fit-content;
+    max-width: 70%;
+    margin: 1rem 1.5rem 1rem auto;
+    color: black;
+    padding: 1rem;
+    border-radius: 1rem 0rem 1rem 1rem;
+    box-shadow: 0px 1px 5px #a7a7a7;
+    overflow-wrap: break-word;
+  }
+  .chat-res {
+    text-align: left;
+    background-image: linear-gradient(to right, #6e0fc8, #cd49e6);
+    width: fit-content;
+    max-width: 70%;
+    margin: 1rem auto 1rem 1.5rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 0rem 1rem 1rem 1rem;
+    box-shadow: 0px 1px 5px #a7a7a7;
+    overflow-wrap: break-word;
+  }
+  .paper {
+    height: 500px;
+    max-height: 500px;
+    overflow: auto;
+    box-shadow: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }

@@ -1,0 +1,9 @@
+.chat-header {
+    background-image: linear-gradient(to right, #6e0fc8, #cd49e6);
+    color: white;
+    height: 3rem;
+    text-align: left;
+    line-height: 3rem;
+    padding-left: 1rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+  }

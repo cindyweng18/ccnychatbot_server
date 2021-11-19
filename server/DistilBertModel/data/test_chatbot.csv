@@ -1,0 +1,340 @@
+Text,Label
+What is City College looking for?,new_potential_student
+How can I apply to City College?,new_potential_student
+What GED score do I need?,ged_score
+What is the GED score I need?,ged_score
+Is there a GED score requirement?,ged_score
+What general educational development do I need?,ged_score
+What is the general educational development I need?,ged_score
+Is there a general educational development requirement?,ged_score
+When is the deadline?,application_deadlines
+When do I have to apply?,application_deadlines
+When is the last day to apply?,application_deadlines
+What are the deadlines to apply?,application_deadlines
+What do I need to apply for City College?,application_req
+What do I need to apply as a new student?,application_req
+What documents do I need to submit?,application_req
+What documents do I need?,application_req
+What documents do I submit?,application_req
+What do I submit?,application_req
+How much is the application fee?,application_req
+Can I transfer my AP credits?,credit_transfer
+How can I transfer my AP credits?,credit_transfer
+How can I transfer my credits?,credit_transfer
+How can I transfer my CollegeNow credits?,credit_transfer
+How can I enroll in early admissions?,early_admission
+Can i apply to early admissions?,early_admission
+Can I apply early?,early_admission
+How can I transfer to City College?,transfer_req
+What do I need to transfer to City College?,transfer_req
+What documents do I need to transfer to City College?,transfer_req
+How much is the application fee?,transfer_req
+Where can I do my transfer application?,transfer_req
+How can I get started on a second degree?,second_degree
+What do I need for a second degree?,second_degree
+Does City College have graduate programs?,grad_info
+Do you have graduate programs?,grad_info
+Can I do graduate programs?,grad_info
+Does City College have master's programs?,grad_info
+Does City College have doctorial programs?,grad_info
+Do you have master's programs?,grad_info
+Do you have doctorate programs?,grad_info
+Can I do a master's program?,grad_info
+How can I apply for graduate programs?,grad_apply
+What are the steps to apply for graduate programs?,grad_apply
+How can I apply for a masters?,grad_apply
+What are the steps to apply for a masters?,grad_apply
+How can I apply for a doctoral degree?,grad_apply
+What are the steps to apply for a doctoral degree?,grad_apply
+What is reentry?,undergrad_reentry_info
+Can I reentry to City College?,undergrad_reentry_info
+How can I reentry to City College?,undergrad_reentry_apply
+What do I need to reentry to City College?,undergrad_reentry_apply
+Can I reentry to City College for graduate programs?,grad_reentry
+Can I reentry graduate programs at City College?,grad_reentry
+How can I reentry graduate programs at City College?,grad_reentry
+How can I reentry graduate programs?,grad_reentry
+Can I apply for a non-degree students?,undergrad_visit_info
+Can I pursue a non baccaulareate degree at City College?,undergrad_visit_info
+What is a non-degree students?,undergrad_visit_info
+What are the requirements for non-degree students?,undergrad_visit_req
+Who can apply for non-degree?,undergrad_visit_req
+Is there a GPA requirement for non-degree students?,undergrad_visit_req
+How can I apply for a non-degree students?,undergrad_visit_apply
+Where can I apply as a non-degree student?,undergrad_visit_apply
+Hello,greeting
+Good morning,greeting
+Good afternoon,greeting
+Good evening,greeting
+Hi,greeting
+Hey,greeting
+Who are you?,name
+What is your name?,name
+How can I call you?,name
+What do you want to be called?,name
+What are you?,name
+I have to go,goodbye
+Gotta go,goodbye
+I have to leave,goodbye
+Goodbye,goodbye
+Bye,goodbye
+What are the schools and divisions of CCNY?,schools_info
+What are the schools and divisions of City College?,schools_info
+What kind of schools are at CCNY?,schools_info
+What kind of schools are at City College?,schools_info
+Is there a school for at CCNY?,schools_info
+Is there a school for at City College?,schools_info
+What can I learn at CCNY?,schools_info
+What can I learn at City College?,schools_info
+What is The Bernard and Anne Spitzer School of Architecture?,architecture_info
+Is there an architecture school at CCNY?,architecture_info
+Is there an architecture school at City College?,architecture_info
+Is there an architecture program at City College?,architecture_info
+Is there an architecture program at CCNY?,architecture_info
+How many students attend The Bernard and Anne Spitzer School of Architecture?,architecture_population
+How many students does The Bernard and Anne Spitzer School of Architecture have?,architecture_population
+How many students are enrolled in The Bernard and Anne Spitzer School of Architecture?,architecture_population
+How is the diversity of students at The Bernard and Anne Spitzer School of Architecture?,architecture_diversity
+Does The Bernard and Anne Spitzer School of Architecture have culturally diverse students?,architecture_diversity
+What kind of degrees do students pursue at The Bernard and Anne Spitzer School of Architecture?,architecture_degree
+How many different architecture degrees can students pursue at The Bernard and Anne Spitzer School of Architecture?,architecture_degree
+What are the qualifications of the faculty at The Bernard and Anne Spitzer School of Architecture?,architecture_faculty
+How qualified is the faculty at The Bernard and Anne Spitzer School of Architecture?,architecture_faculty
+What kind of programs do design studios pursue at The Bernard and Anne Spitzer School of Architecture?,architecture_programs
+What programs are available to me at The Bernard and Anne Spitzer School of Architecture?,architecture_programs
+What kind of topics are discussed in design studios at The Bernard and Anne Spitzer School of Architecture?,architecture_topics
+What kinds of discussions are had at The Bernard and Anne Spitzer School of Architecture?,architecture_topics
+What kind of experience can students expact at The Bernard and Anne Spitzer School of Architecture?,architecture_experience
+What is it like attending The Bernard and Anne Spitzer School of Architecture?,architecture_experience
+What is the Sophie Davis Biomedical Education Program at the CUNY School of Medicine?,biomed_program
+Is there a medical school at CCNY?,biomed_program
+Is there a medical school at City College?,biomed_program
+Does City College have a medical school program?,biomed_program
+Does CCNY have a medical school program?,biomed_program
+What is the education program of  the CUNY School of Medicine?,biomed_program
+What is the mission of the CUNY School of Medicine?,biomed_mission
+What is the goal of the CUNY School of Medicine?,biomed_mission
+What is the Sophie Davis Biomedical Education Program at the CUNY School of Medicine committed to?,biomed_mission
+"How long does it take to fulfill all requirements for the Bachelor of Science degree at the Sophie Davis Biomedical Education Program
+at the CUNY School of Medicine?",biomed_length
+"How long will it take to get my Bachelor of Science degree at the Sophie Davis Biomedical Education Program
+at the CUNY School of Medicine?",biomed_length
+How long will it take before I meet the requirements to transfer to the CUNY School of Medicine?,biomed_length
+"What will students do after fulfilling the requirements for the Bachelor of Science degree the Sophie Davis Biomedical Education Program
+at the CUNY School of Medicine?",biomed_completion
+How can I transfer into the CUNY School of Medicine from the Sophie Davis Biomedical Education Program?,biomed_completion
+What does the Sophie Davis Biomedical Education Program at the CUNY School of Medicine include?,biomed_curriculum
+What is the curriculum at the CUNY School of Medicine?,biomed_curriculum
+What kind of students sould be attracted to the Sophie Davis Biomedical Education Program at the CUNY School of Medicine?,biomed_target
+How difficult is the workload when attending the Sophie Davis Biomedical Education Program at the CUNY School of Medicine?,biomed_target
+How difficult are the courses at the Sophie Davis Biomedical Education Program at the CUNY School of Medicine?,biomed_target
+What kind of skills will I be expected to have when attending the Sophie Davis Biomedical Education Program at the CUNY School of Medicine?,biomed_target
+What is The Colin Powell School for Civic and Global Leadership?,powell_info
+Is there a social science school at City College?,powell_info
+Is there a social science school at CCNY?,powell_info
+Is there a leadership development program at City College?,powell_info
+Is there a leadership development program at CCNY?,powell_info
+What are the goals of faculty at The Colin Powell School for Civic and Global Leadership?,powell_faculty
+What are the focuses of the faculty at The Colin Powell School for Civic and Global Leadership?,powell_faculty
+What kind of experience can students expect at The Colin Powell School for Civic and Global Leadership?,powell_experience
+What is it like attending The Colin Powell School for Civic and Global Leadership?,powell_experience
+How can I contact the Dean's Office at The Colin Powell School for Civic and Global Leadership?,powell_contact
+I want to contact the Dean's Office at The Colin Powell School for Civic and Global Leadership.,powell_contact
+How can I contact an advisor at The Colin Powell School for Civic and Global Leadership?,powell_contact
+I want to contact an advisor at The Colin Powell School for Civic and Global Leadership.,powell_contact
+What kind of career opportunities are granted at The Colin Powell School for Civic and Global Leadership?,powell_opportunities
+Are there career building opportunites for me at The Colin Powell School for Civic and Global Leadership?,powell_opportunities
+What kind of student resources can I expect from The Colin Powell School for Civic and Global Leadership?,powell_resources
+How will The Colin Powell School for Civic and Global Leadership assist with my student life?,powell_resources
+How will The Colin Powell School for Civic and Global Leadership assist with my educational experience?,powell_resources
+Why is advisement important at The Colin Powell School for Civic and Global Leadership?,powell_advisement
+Is advisement mandatory at The Colin Powell School for Civic and Global Leadership?,powell_advisement
+What is advisement like at The Colin Powell School for Civic and Global Leadership?,powell_advisement
+What kind of degree guidance is offered at The Colin Powell School for Civic and Global Leadership?,powell_advisement
+What is the Colin Powell School Fellowships Program at the The Colin Powell School for Civic and Global Leadership?,powell_fellowship
+What kind of networking opportunities are at the The Colin Powell School for Civic and Global Leadership?,powell_fellowship
+Is there a fellowship at the The Colin Powell School for Civic and Global Leadership?,powell_fellowship
+How can I apply to a fellowship at the The Colin Powell School for Civic and Global Leadership?,powell_fellowship
+How can The Colin Powell School for Civic and Global Leadership help with my career and professional development?,powell_development
+Is there career mentoring at The Colin Powell School for Civic and Global Leadership?,powell_development
+What is the School of Education?,soe_info
+Is there an education school at City College?,soe_info
+Is there an education school at CCNY?,soe_info
+Is there a teaching school at City College?,soe_info
+Is there a teaching school at CCNY?,soe_info
+What is the mission of the School of Education?,soe_mission
+What is the goal of the School of Education?,soe_mission
+What kind of programs do students pursue at the School of Education?,soe_programs
+What programs are available at the School of Education?,soe_programs
+How can I contact the Dean of the School of Education?,soe_contact
+I want to contact the Dean of the School of Education.,soe_contact
+Text,Label
+How can I visit the campus?,visit_campus
+Can I visit the campus in virtual?,visit_campus
+What is the minimum requirement for Group Campus Virtual Walks?,visit_requirement
+How can I register for a Group Campus Virtual Walks?,visit_email
+What are the days open for Group Campus Virtual Walks?,visit_group_days
+What are the days open for Undergraduate Campus Virtual Walks?,visit_hours
+Is campus visit tour virtual?,visit_virtual
+How can I register for a Undergraduate Campus Virtual Walks?,visit_campus_register
+Can I have a video campus tour?,visit_campus
+What is the link for campus visit tour?,visit_campus
+What is the link for information sessions?,visit_informantion
+Is information sessions virtual?,visit_virtual
+Who is Graduate information sessions for?,visit_graduate
+Who is Undergraduate Information Sessions for?,visit_undergraduate
+How can I register for Undergraduate Information Sessions?,visit_informantion_register1
+How can I register for Graduate information sessions?,visit_informantion_register2
+What is the link for graduate admissions event?,information_event
+What is the link for CUNY_Wide Events?,information_event
+What is the link for Campus General Information Workshops?,information_event
+What is the link for Architecture & design Events?,information_event
+What is the link for Business Events?,information_event
+What is the link for Communications & Journalism Events?,information_event
+What is the link for Criminal Justice & Law Events?,information_event
+What is the link for Education Events?,information_event
+"What is the link for Engineering, Computer Science & Technology Events?",information_event
+What is the link for Public Administration Events?,information_event
+What is the link for Science & Mathematics Events?,information_event
+What is the link for Social Sciences Events?,information_event
+What is the link for Visual Performing Arts Events,information_event
+What is the link for Health & public Health Events?,information_event
+What is the link for Humanities Events?,information_event
+What is the link for Library Science Events?,information_event
+"What is the link for Mental Health, Psychology & Social Work Events?",information_event
+What time does the information session begin?,information_time
+When does the registration for information sessions open?,information_registration_start
+When is the next information session event?,visit_information
+What is the link for Financial Aid?,financialaid_link
+What is the phone number for financial aid?,financialaid_phone
+What is the email address of financial aid?,financialaid_email
+What is the office address of financial aid?,financialaid_addr
+What is the School code for finacial aid?,financialaid_code
+What is the office hours for financial aid?,financialaid_link
+Where can I book an appointment with a financial aid counselor?,financialaid_appointment
+What is the secure portal for financial aid document submission?,financialaid_doc
+What is the zoom link for financial aid?,financialaid_zoom
+"What is the requirement for grants, scholarships and loans?",financialaid_grant
+What are the requirements for Federal and New York State Satisfactory Academic Progress(SAP)?,financialaid_req
+What is the link for FAFSA form?,financialaid_fafsa
+What is the link for HESC?,financialaid_hesc
+What is the link for the Excelsior Scholarship?,financialaid_excelsior
+How many types of financial aid does the school offer?,financialaid_type
+How much TAP will I get?,financialaid_tap_calculator
+How much FAFSA will I get?,financialaid_fafsa_calculator
+How long does it take for loans to process?,financialaid_loan_processing_time
+What is the amount of the loan?,financialaid_loan_amount
+Are there any paid campus related work?,financialaid_fws
+Do federal work study required to pay taxes?,financialaid_fws_tax
+How much does federal work study pay?,financialaid_fws_pay
+Where can I apply for federal work study?,financialaid_fws_application
+How can I contact federal work study?,financialaid_fws_contact
+How to apply for scholarships?,financialaid_scholarship
+What are the requirements to apply for scholarship?",financialaid_scholarship
+Are there any fees regarding loan?,financialaid_loan_fees
+What are the interest rate for loans?,financialaid_loan_rates
+What is the tution bill due dates?,tuition_due
+How can I book an appointment for bursar office?,tuition_bursar
+What is the link for Tuition and Fees?,tuition_link
+What is the email address for Bursar Office?,bursar_email
+What is the office address for bursar office?,bursar_addr
+What is the phone number of bursar office?,bursar_phone
+What is the fax number of bursar office?,bursar_fax
+What is the office hours of bursar office?,bursar_link
+What is the link for Campus Housing?,housing_link
+what is the link for Campus Housing application?,housing_application
+What is the link for floor plans of campus housing?,housing_floor
+Show me the campus housing photo gallery.,housing_gallery
+What is the email address for campus housing?,housing_email
+What is the phone number for campus housing?,housing_phone
+When is the cmpus housing tour offered?,housing_day
+What is the link for current campus resident?,housing_resident
+What is the campus room change request link?,housing_room
+What is the campus License cancellation request link?,housing_cancellation
+What is the link for campus community and residence life programming?,housing_life
+How much does it cost to live at the towers?,housing_tower
+Will the cost for housing at The Towers be included in my tuition statement?,housing_parents
+How can payments be made for my student’s housing bill?,housing_parents
+Can Financial Aid be used toward my student’s housing bill?,housing_parents
+What is the difference between “applying” for housing and “signing a License Agreement?,housing_parents
+What safety measures are in place at The Towers?,housing_parents
+Can my student stay at The Towers during the Holidays and school breaks?,housing_parents
+Are The Towers’ apartments furnished?,housing_parents
+Are there accommodations for persons with disabilities?,housing_parents
+What is the Family Education Rights and Privacy Act (FERPA)?,housing_parents
+What is the link for parents frequently asked questions about campus housing?,housing_parents
+What is the link for veterans?,veterans
+What is the link for International Students?,international_link
+What is the virtual front desk link for International students?,international_zoom
+What is the office hours of the internation student services?,international_hours
+What is the email address of the international students services?,international_email
+What is the link of Frequently asked questions for internation student services?,international_faq
+Where can I get update about internation students?,international_link
+What is the link to student contact sheet?,international_contact
+What is the link to form I-94?,international_i94
+How many credits are required to register full time as international students?,international_req
+What are some Immigration tips?,international_tips
+What is the link for daca and dreamers?,international_daca
+What is the phone number for international students service?,international_phone
+What is the fax number for international student services?,international_fax
+Who is the director of international student services?,international_director
+What is the address of the international Student services?,international_addr
+What is the link for Honors programs?,honors_link
+What is virtual front desk link for Honors programs?,honors_zoom
+What is the email address of the honors programs?,honors_email
+What is the phone number of the front desk of honors program?,honors_phone
+What is the office hours of the honors program?,honors_hours
+What is the fax number of the honors program?,honors_fax
+What is the address of the honors program?,honors_addr
+Who is the director of CCNY honors program?,honors_director
+how do I get student housing,student_housing
+how do I get on campus housing,student_housing
+What is the Towers,towers
+Where are the towers located,towers_location
+Where can I find the towers,towers_location
+Where can I find the cafeteria,cafe_location
+is the cafeteria open,cafe_hours
+where can I get food,dining
+where is the gym?,gym_location
+how can parents get involved in their student's education?,parents
+where is the staff directory?,directory
+list of faculty and staff,directory
+I want to file a complaint,file_complaint
+how do I file a formal complaint,file_complaint
+how do I join a club,clubs
+what clubs are available in city college,clubs
+what clubs are available in ccny,clubs
+list of clubs,clubs
+what organizations are available in ccny,clubs
+what organizations are available in city college,clubs
+is the school accessible to people with disabilities,is_accessible
+where is the student disability services,accessability_location
+how do I contact student disability services,accessability_contact
+how do I contact the Accessability center,accessability_contact
+is there counseling available to students?,is_counseling
+is there support for students with disabilities,is_accessible
+can I get a health screning,health_screening
+can I get a health screening,health_screening
+what medical services does city college provide,medical_services
+what medical services does ccny provide,medical_services
+does ccny provide pregnancy testing?,medical_services
+how safe is ccny,safety
+how safe is the city college campus?,safety
+how safe is the ccny campus?,safety
+is there a lost and found?,lost_found
+can I get a job on campus as an international student?,int_employment
+how do I report a crime,report_crime
+how do I rtport a crime,report_crime
+where is the public safety office,public_safety_location
+how do I contact public safety,public_safety_contact
+how do I contact public safey,public_safety_contact
+What is the number for public safety?,public_safety_contact
+what is the email for public safety,public_safety_contact
+where can I park at CCNY?,parking
+where can I park at city college?,parking
+does ccny provide student parking,parking
+does city college provide student parking,parking
+where is the ID offcie,id_location
+where can I prk at city college?,parking
+What is the numbet for public safety?,public_safety_contact
+where is the ID office,id_location

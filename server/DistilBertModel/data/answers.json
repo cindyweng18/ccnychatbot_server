@@ -1,0 +1,700 @@
+{
+  "intents": [
+    {
+        "tag": "greeting",
+        "responses": ["Howdy Partner!", "Hello", "How are you doing?", "Greetings!", "How do you do?"]
+    },
+    {
+        "tag": "name",
+        "responses": ["My name is Janus", "I'm Janus", "Janus"]
+    },
+    {
+        "tag": "goodbye",
+        "responses": ["It was nice speaking to you", "See you later", "Speak soon!"]
+    },
+    {
+        "tag": "new_potential_student",
+        "responses": ["We are seeking students who will thrive at City both academically and personally while contributing to the community inside and outside of the classroom. Candidates will be considered on the basis of overall strength of academic preparation, grades in individual subjects, and overall high school average."]
+    },
+    {
+        "tag": "ged_score",
+        "responses": ["You need a GED test score of 3250 to enter City College of New York"]
+    },
+    {
+        "tag": "application_deadlines",
+        "responses": ["The general deadlines for application are Fall: Feb 1, Spring: Sept 15"]
+    },
+    {
+        "tag": "application_req",
+        "responses": ["Application:Submit official hs transcript, $65 non-refundable application fee. If you have a GED, submit your GED score. Applications, fees and all other documentation must be sent to the University Application Processing Center. Apply here: https://www.cuny.edu/admissions/undergraduate/. Please note Applications that are submitted after the deadline will be considered on a space available basis only."]
+    },
+    {
+        "tag": "credit_transfer",
+        "responses": ["AP: Transfer Evaluation Services evaluates advanced placement (A.P.) and international baccalaureate (I.B.), A Level examination scores and College Now. Please submit official transcript for College Now to the Office of Admissions Evaluation Services. You should arrange to have official score reports of A.P. examinations forwarded to the Office of Admissions directly from the College Board. You may bring your original official A.P., I.B. or A Level examination scores to Evaluation Services in the Office of Admissions. City College does not grant credit for the College Level Examination Program (CLEP). Students may receive up to 32 credits through A.P., IB or A Level examinations; equivalences vary by department. Please see the guidelines."]
+    },
+    {
+        "tag": "early_admission",
+        "responses": ["Early Admissions: City College admits a small number of academically exceptional high school students upon the completion of their high school junior year. Students enter as matriculated students into the College's Honors program. Applicants generally are from the upper 10% of their high school class. Students are accepted on the basis of demonstrated academic achievement and an interview by a member of the Admissions Committee. Admission is based on academic achievement, and each applicant will be judged individually. For applications, contact the Admissions Office at (212) 650-6444"]
+    },
+    {
+        "tag": "transfer_req",
+        "responses": ["Transfer applicants are required to submit official transcripts from each college attended (as well as from their high schools) and a $70.00 non-refundable application fee. Those who have a General Equivalency Diploma (GED) must also submit GED test scores. Applications, fees, and all other supporting documentation should be sent to the University Application Processing Center (P.O. Box 359023 Brooklyn, NY 11235-9023). Click to here start your application online. Please note Applications that are submitted after the deadline will be considered on a space available basis only."]
+    },
+    {
+        "tag": "second_degree",
+        "responses": ["Students sometimes desire a second bachelor’s degree. The City College welcomes second degree candidates who wish to pursue a different course of study. The application process is identical to that of a Transfer Student."]
+    },
+    {
+        "tag": "grad_info",
+        "responses": ["The City College master’s, doctoral and advanced certificate programs are designed for the student seeking a master’s degree, those preparing for admission into doctoral degree programs, career advancement and also for personal enrichment. Our programs also lead to careers in the medical field, non-profit and government agencies as well as careers throughout the arts. With hundreds of master’s degrees conferred each year, City College with more than sixty different graduate level programs is a great choice for graduate study. We offer a wide range of specialized learning opportunities, including 6 PhD programs and 10+ accelerated master’s degrees."]
+    },
+    {
+        "tag": "grad_apply",
+        "responses": ["Step-By-Step Guide to Applying: \n Step 1: Choosing Your Program (https://www.ccny.cuny.edu/admissions/gradstep-1choosingprogram) \n Step 2: Requirements (https://www.ccny.cuny.edu/admissions/gradstep2requirements) \n Step 3: Preparing To Apply (https://www.ccny.cuny.edu/admissions/gradstep-3-preparing-to-apply) \n Step 4: Apply Now! (https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantConnectLogin.asp?id=CUNYCCNYG) \n Use this link for a video on how to apply (https://www.youtube.com/embed/gbdWb5S8ZAI)."]
+    },
+    {
+        "tag": "undergrad_reentry_info",
+        "responses": ["Re-Entry is the process of officially returning to continue your education after being out of school for at least one semester. Through the re-entry process, you can only return to your previous academic status. For example, if you were a degree seeking student, then you would be seeking re-entry into your previous degree seeking status. If you were a non-degree student, then you would be seeking re-entry into your non-degree status. This process should not be used if you wish to change your status (i.e. non-degree to degree)."]
+    },
+    {
+        "tag": "undergrad_reentry_apply",
+        "responses": ["If you have completed at least one semester at City College, but did not graduate, and have been out of school for at least one semester then you can complete a re-entry application. Please note that withdrawal or W grades still count towards the completion of a semester. If you have already earned your Bachelor's degree from City College you should not complete this application. You can either apply to to begin a second degree or take courses as a non-degree student. (https://www.ccny.cuny.edu/admissions/non-degreevisiting-students/seniors) Schedule and deadlines: https://www.ccny.cuny.edu/admissions/re-entering-students Note that these dates change depending on the year/semester"]
+    },
+    {
+        "tag": "grad_reentry",
+        "responses": ["Re-entry applications should be submitted as soon as possible; however, the deadlines vary by program. Please see our Programs and Deadlines page for additional information. Please note that if your grade point average (GPA) was below 3.0 when you last attended, then you may be required to submit an academic appeal as part of the re-entry process. In such a case you should submit your re-entry application well before the deadline to allow ample time for review (https://www.ccny.cuny.edu/admissions/graduate-programs-and-deadlines)"]
+    },
+    {
+        "tag": "undergrad_visit_info",
+        "responses": ["All three categories of undergraduate non-degree (non-matriculated) students - this includes general, visiting, and senior citizen non-degree students - are individuals taking courses for college credit, but not pursuing a baccaulareate degree at City College, or - in the case of senior citizens (Seniors) - auditing courses for personal enrichment and neither seeking a baccaulareate degree nor college credit. You may not take more than 24 credits overall in this status. You may need departmental approval for your desired course(s). You will be among the last group to register, as priority is given to degree-seeking students. Your course registration is on a space available basis, and therefore not guaranteed. You may not apply any financial aid towards your tuition."]
+    },
+    {
+        "tag": "undergrad_visit_req",
+        "responses": ["Visiting Students from non-CUNY campuses who are in good academic standing with a minimum cumulative grade point average (GPA) of 2.0, and have the permission of their college or university. \nStudents who attended a college or university previously, but are not currently enrolled, and are in good academic standing with a minimum cumulative GPA of 2.0.\nHigh School students looking to take courses through CUNY's CollegeNow Program must first determine if their high school is on CCNY's list of CollegeNow Particpating Schools before applying. Please consult first with a guidance counselor or college advisor at your high school. \nHigh School graduates who never attended a college or university after graduating high school must have a cumulative GPA of 80 (or its equivalent), or a score of 3250 (or its equivalent) on the Test Assessing Secondary Completion (TASC). Senior Citizens - for this purpose categorized as being at least 60 years of age - have the additional option of registering on an audit (no credit) basis an pay no tuition. A valid government ID is required for proof of age. \nInternational Students may take non-degree courses, but are not eligible to obtain a Certificate of Eligibility (I-20) while in non-degree status."]
+    },
+    {
+        "tag": "undergrad_visit_apply",
+        "responses": ["Submit a Non-Degree Application by the appropriate deadline \nWith the exception of Seniors auditing courses, official or unofficial copies of all of the following must be provided:\nVisiting students who have earned at least 24 college credits*\nCollege transcript from the last college or university attended\nTOEFL or IELTS scores if educated in a non-English speaking country\nVisiting students who have earned less than 24 college credits*\nCollege transcript from the last college or university attended\nHigh School transcript(s) and/or TASC diploma with scores\nSAT and/or ACT Scores if high school graduation date is longer than 18 months prior to the desired start date of classes at CCNY\nTOEFL or IELTS scores if educated in a non-English speaking country to ccnyregistration@ccny.cuny.edu. \nSubmit a CUNY Residency Form if any application information indicates a prior residence outside of New York State."]
+    },
+    {
+      "tag": "schools_info",
+      "responses": [
+        "CCNY containes The Bernard and Anne Spitzer School of Architecture, CUNY School of Medicine, Colin Powell School for Civic and Global Leadership, School of Education, The Grove School of Engineering, Division of Humanities and the Arts, Division of Interdisciplinary Studies at Center for Worker Education (CWE), and the Division of Science."
+      ]
+    },
+    {
+      "tag": "architecture_info",
+      "responses": [
+        "The Spitzer School of Architecture at City College, now more than fifty years old, is the flagship public school of architecture in New York City. Its emphasis on the urban environment as the most important generator of ideas about the appropriateness of programs and forms makes it unique among the constellation of architecture schools in New York and the surrounding region."
+      ]
+    },
+    {
+      "tag": "architecture_population",
+      "responses": [
+        "Nearly 500 students attend The Bernard and Anne Spitzer School of Architecture."
+      ]
+    },
+    {
+      "tag": "architecture_diversity",
+      "responses": [
+        "Students from the city, the country, and around the world attend The Bernard and Anne Spitzer School of Architecture."
+      ]
+    },
+    {
+      "tag": "architecture_degree",
+      "responses": [
+        "Students at The Bernard and Anne Spitzer School of Architecture pursue professional undergraduate degrees in architecture and graduate degrees in architecture, urban landscape architecture, urban design, and sustainability in the urban environment."
+      ]
+    },
+    {
+      "tag": "architecture_faculty",
+      "responses": [
+        "Students at The Bernard and Anne Spitzer School of Architecture are taught by faculty who are deeply engaged in New York City as licensed architects and landscape architects, critics, and scholars."
+      ]
+    },
+    {
+      "tag": "architecture_programs",
+      "responses": [
+        "Design studios at The Bernard and Anne Spitzer School of Architecture currently pursue programs that are civic, institutional, residential, and commercial."
+      ]
+    },
+    {
+      "tag": "architecture_topics",
+      "responses": [
+        "City College architecture students  at The Bernard and Anne Spitzer School of Architectureare given an in-depth experience fostering intense discussion and debate about the life, death and rebirth of cities, environmental sustainability, construction technology, theories of public and familiar interaction, and a new aesthetic sensibility about the built environment. "
+      ]
+    },
+    {
+      "tag": "architecture_experience",
+      "responses": [
+        "Students at The Bernard and Anne Spitzer School of Architecture engage with faculty, alumni, and the profession at large as we begin to reevaluate and reinvent the built environment for the next generation."
+      ]
+    },
+    {
+      "tag": "biomed_program",
+      "responses": [
+        "The Sophie Davis Biomedical Education Program/CUNY School of Medicine is a 7-year BS/MD program designed as an integrated curriculum in medical studies."
+      ]
+    },
+    {
+      "tag": "biomed_mission",
+      "responses": [
+        "The mission of The CUNY School of Medicine (CSOM) is to produce broadly educated, highly-skilled medical practitioners to provide quality health services to communities historically underserved by primary care practitioners."
+      ]
+    },
+    {
+      "tag": "biomed_length",
+      "responses": [
+        "During the first three-years of the Sophie Davis Biomedical Education Program, students fulfill all requirements for the Bachelor of Science degree."
+      ]
+    },
+    {
+      "tag": "biomed_completion",
+      "responses": [
+        "After successfully completing the three-year sequence, students at the Sophie Davis Biomedical Education Program transfer into the CUNY School of Medicine to complete the four years of medical school."
+      ]
+    },
+    {
+      "tag": "biomed_target",
+      "responses": [
+        "The Sophie Davis Biomedical Program at the CUNY School of Medicine is designed to attract students who have an outstanding academic performance in high school with a strong record in the sciences, mathematics, written and verbal communication skills and community service."
+      ]
+    },
+    {
+      "tag": "biomed_curriculum",
+      "responses": [
+        "The Sophie Davis Biomedical Education Program at the CUNY School of Medicine includes specialized undergraduate and clinical curriculum, clinical training with our affiliates, academic and personal support services to develop skills and abilities requisite for the successful physician, and affordable cost plus financial assistance for those who qualify so that finances are not a barrier to a medical career."
+      ]
+    },
+    {
+      "tag": "powell_info",
+      "responses": [
+        "The Colin Powell School for Civic and Global Leadership is a home to the social science departments at CCNY as well as the core leadership development and public service programs of City College."
+      ]
+    },
+    {
+      "tag": "powell_faculty",
+      "responses": [
+        "The School is led by a faculty and staff dedicated, first and foremost, to fulfilling our core instructional mission and serving students."
+      ]
+    },
+    {
+      "tag": "powell_experience",
+      "responses": [
+        "We are committed to providing an outstanding student experience at the same time as we devote ourselves as well to the highest standards of research and the university’s democratic and public obligations."
+      ]
+    },
+        {
+      "tag": "powell_contact",
+      "responses": [
+        "If you are a current or prospective student, please feel free to reach out to one of us in the Dean’s Office or one of our Advisers with questions you might have. The contact information for each of us is below. Please follow us on social media @cpowellschool to stay up-to-date on events and opportunities."
+      ]
+    },
+        {
+      "tag": "powell_opportunities",
+      "responses": [
+        "We have an extraordinary range of available advising, mentoring, fellowships, and career and professional development opportunities."
+      ]
+    },
+        {
+      "tag": "powell_resources",
+      "responses": [
+        "We have resources in peer tutoring, stress management, counseling, food assistance, and emergency grants designed to facilitate your educational experience. If you run into problems or simply have questions as you begin the term, please reach out to professors, advisers, and the Dean’s office."
+      ]
+    },
+        {
+      "tag": "powell_advisement",
+      "responses": [
+        "Although students have the ultimate responsibility for knowing and meeting degree requirements, they do not have to navigate the system alone! Seeking help from an advisor is not only required, but the smartest and easiest way for a student to complete his or her degree. Advisement within Colin Powell School for Civic and Global Leadership is offered through a combination of faculty and professional staff."
+      ]
+    },
+        {
+      "tag": "powell_fellowship",
+      "responses": [
+        "The Colin Powell School fellowships offer many opportunities for you to develop your academic and professional interests. If you want to work in government or at nonprofit organizations, these fellowships are for you. They can help you to get involved in public service, and also give you networking opportunities. Recipients become part of a lasting network of like-minded people from around the country and around the world. Our advisers can help you determine which opportunities help you meet your goals. Once you find a fellowship, we support you throughout the entire application process."
+      ]
+    },
+        {
+      "tag": "powell_development",
+      "responses": [
+        "Between classes, jobs and family obligations, you might feel like you have little time to think about your career, but it is never too soon to begin planning. Engaging in career and professional development is as essential as your studies for ensuring you’re ready to hit the ground running in the jobs to which you aspire when you finish your degrees. Toward that end, we offer a range of workshops, events, and one-on-one mentoring to assist you in thinking through your professional future."
+      ]
+    },
+        {
+      "tag": "soe_info",
+      "responses": [
+        "The School of Education of The City College of New York prepares educators to support students of our diverse citizenry to meet the challenges of the 21st century and to be active participants in our democracy."
+      ]
+    },
+        {
+      "tag": "soe_mission",
+      "responses": [
+        "The mission of the School of Education is to prepare knowledgeable, reflective and caring educators who are qualified and committed to teaching and leading diverse communities."
+      ]
+    },
+            {
+      "tag": "soe_programs",
+      "responses": [
+        "Art Education - Marit Dewhurst - arted@ccny.cuny.edu\nBilingual Education - Nancy Stern - nstern@ccny.cuny.edu\nChildhood Education - Megan Blumenreich - mblumenreich@ccny.cuny.edu\nEarly Childhood Education (Graduate) - Gay Wilgus (Early Childhood Special Education Advanced Certificate Program) - gwilgus@ccny.cuny.edu ; Nancy Cardwell (general Early Childhood Education Graduate Program) - ncardwell@ccny.cuny.edu\nEducational Leadership - Robert Lubetsky - rlubetsky@ccny.cuny.edu\nEducational Theatre - Sobha Kavanakudiyil - skavanakudiyil@ccny.cuny.edu\nLiteracy - Nadjwa Norton - nnorton@ccny.cuny.edu\nScience Learning and Public Engagement - Yael Wyner - ywyner@ccny.cuny.edu\nSecondary English Education - Andrew Ratner - aratner@ccny.cuny.edu\nSecondary Mathematics Education - Despina Stylianou - dstylianou@ccny.cuny.edu\nSecondary Science Programs - Yael Wyner - ywyner@ccny.cuny.edu\nSecondary Social Studies - Shira E. Epstein - sepstein@ccny.cuny.edu\nSecondary Spanish - Luis Guzmán Valerio - lguzmanvalerio@ccny.cuny.edu\nStudents with Disabilities - Laura Rader - lrader@ccny.cuny.edu\nTeaching English to Speakers of Other Languages (TESOL) - Nancy Stern -  nstern@ccny.cuny.edu"
+      ]
+    },
+            {
+      "tag": "soe_contact",
+      "responses": [
+        "The Dean of the School of Education may be contacted at deaneducation@ccny.cuny.edu."
+      ]
+    },
+    {
+        "tag": "visit_campus",
+        "responses": ["Please visit https://www.ccny.cuny.edu/admissions/campus-tours"]
+    },
+    {
+        "tag": "visit_requirement",
+        "responses": ["Group Campus Virtual Walks require a minimum of 10 people and have a maximum capacity of 50."]
+    },
+    {
+        "tag": "visit_email",
+        "responses": ["To schedule a Group Virtual Walk please e-mail us at tours@ccny.cuny.edu ."]
+    },
+    {
+        "tag": "visit_group_days",
+        "responses": ["Mondays and Wednesdays"]
+    },
+    {
+        "tag": "visit_hours",
+        "responses": ["Tuesdays and Thursdays at 11:00 AM, 1:00 PM, and 3:00 PM"]
+    },
+    {
+        "tag": "visit_virtual",
+        "responses": ["Yes"]
+    },
+    {
+        "tag": "visit_campus_register",
+        "responses": ["Please visit https://cunyccny.askadmissions.net/Portal/EI/GroupUrl?gid=530459611d24506fb349528a22d36a38d633c1"]
+    },
+    {
+        "tag": "visit_information",
+        "responses": ["Please visit https://www.ccny.cuny.edu/admissions/information-sessions"]
+    },
+    {
+        "tag": "visit_virtual",
+        "responses": ["Yes"]
+    },
+    {
+        "tag": "visit_graduate",
+        "responses": ["Graduate information sessions are for students who are pursuing a Master's or Ph.D level of study."]
+    },
+    {
+        "tag": "visit_undergraduate",
+        "responses": ["Undergraduate Information Sessions are for students who are pursuing a Bachelor's degree level of study."]
+    },
+    {
+        "tag": "visit_information_register1",
+        "responses": ["Please visit https://cunyccny.askadmissions.net/Portal/EI/GroupUrl?gid=5304592f1e549ed9ff45939dcae61a836b8fb5"]
+    },
+    {
+        "tag": "visit_information_register2",
+        "responses": ["Please check the CUNY Graduate Admissions Events website for information on all Graduate Admissions events http://www.cuny.edu/admissions/graduate-studies/events/"]
+    },
+    {
+        "tag": "information_event",
+        "responses": ["Please visit http://www.cuny.edu/admissions/graduate-studies/events/"]
+    },
+    {
+        "tag": "information_time",
+        "responses": ["All information sessions begin at 2:15 PM"]
+    },
+    {
+        "tag": "information_registration_start",
+        "responses": ["Registration for each session will open 15 days prior to the scheduled start."]
+    },
+    {
+        "tag": "visit_information",
+        "responses": ["Please visit https://www.ccny.cuny.edu/admissions/information-sessions"]
+    },
+    {
+        "tag": "financialaid_link",
+        "responses": ["Please visit https://www.ccny.cuny.edu/financialaid"]
+    },
+    {
+        "tag": "financialaid_phone",
+        "responses": ["The phone number is (212) 650-6656"]
+    },
+    {
+        "tag": "financialaid_email",
+        "responses": ["The email address is financialaid@ccny.cuny.edu"]
+    },
+    {
+        "tag": "financialaid_addr",
+        "responses": ["Wille Administration Building 160 Convent Avenue - Room 104 New York, NY 10031"]
+    },
+    {
+        "tag": "financialaid_code",
+        "responses": ["The school code is 002688"]
+    },
+    {
+        "tag": "financialaid_link",
+        "responses": ["Please visit https://www.ccny.cuny.edu/financialaid"]
+    },
+    {
+        "tag": "financialaid_appointment",
+        "responses": ["Please visit https://www.ccny.cuny.edu/financialaid/appointment"]
+    },
+    {
+        "tag": "financialaid_doc",
+        "responses": ["Please visit https://securetransfer.ccny.cuny.edu/filedrop/FinancialAid"]
+    },
+    {
+        "tag": "financialaid_zoom",
+        "responses": ["Please visit https://ccny.zoom.us/j/2126506656"]
+    },
+    {
+        "tag": "financialaid_grant",
+        "responses": ["Please visit https://www.hesc.ny.gov/pay-for-college/financial-aid/types-of-financial-aid.html#horizontalTab1"]
+    },
+    {
+        "tag": "financialaid_req",
+        "responses": ["Please visit https://www.ccny.cuny.edu/financialaid/academic-requirements"]
+    },
+    {
+        "tag": "financialaid_fafsa",
+        "responses": ["Please visit http://www.studentaid.gov/"]
+    },
+    {
+        "tag": "financialaid_hesc",
+        "responses": ["Please visit https://www.hesc.ny.gov/"]
+    },
+    {
+        "tag": "financialaid_excelsior",
+        "responses": ["Please visit https://www.hesc.ny.gov/pay-for-college/financial-aid/types-of-financial-aid/nys-grants-scholarships-awards/the-excelsior-scholarship.html"]
+    },
+    {
+        "tag": "tuition_due",
+        "responses": ["Please visit https://www.ccny.cuny.edu/bursar/bill-due-dates"]
+    },
+    {
+        "tag": "tuition_bursar",
+        "responses": ["Please visit https://www.ccny.cuny.edu/bursar"]
+    },
+    {
+        "tag": "tuition_link",
+        "responses": ["Please visit https://www.ccny.cuny.edu/bursar/tuition-and-fee-information"]
+    },
+    {
+        "tag": "bursar_email",
+        "responses": ["The email address is bursaroffice@ccny.cuny.edu"]
+    },
+    {
+        "tag": "bursar_addr",
+        "responses": ["Wille Administration Building Room 103 160 Convent Avenue New York, NY 10031"]
+    },
+    {
+        "tag": "bursar_phone",
+        "responses": ["The phone number is 212-650-8700"]
+    },
+    {
+        "tag": "bursar_fax",
+        "responses": ["The fax number is 212-650-7217"]
+    },
+    {
+        "tag": "bursar_link",
+        "responses": ["Please visit https://www.ccny.cuny.edu/bursar"]
+    },
+    {
+        "tag": "housing_link",
+        "responses": ["Please visit http://ccnytowers.com/"]
+    },        
+    {
+        "tag": "housing_application",
+        "responses": ["Please visit https://www.propertyboss.net/webForm.php?form=Happ&AcctDBkey=CAPCNY_61152"]
+    },
+    {
+        "tag": "housing_floor",
+        "responses": ["Please visit https://ccnytowers.com/#FloorPlans"]
+    },
+    {
+        "tag": "housing_gallery",
+        "responses": ["Please visit https://ccnytowers.com/photo-gallery/"]
+    },
+    {
+        "tag": "housing_email",
+        "responses": ["The email address is towers@ccny.cuny.edu"]
+    },
+    {
+        "tag": "housing_phone",
+        "responses": ["The phone number is 917-507-0070"]
+    },
+    {
+        "tag": "housing_day",
+        "responses": ["Tours are offered Monday through Friday between 10am and 4pm."]
+    },
+    {
+        "tag": "housing_resident",
+        "responses": ["Please visit https://ccnytowers.com/current-residents-2/"]
+    },
+    {
+        "tag": "housing_room",
+        "responses": ["Please visit https://ccnytowers.com/room-change-request-form/"]
+    },
+    {
+        "tag": "housing_cancellation",
+        "responses": ["Please visit https://ccnytowers.com/license-cancellation-request-form/"]
+    },
+    {
+        "tag": "housing_life",
+        "responses": ["Please visit https://ccnytowers.com/community-and-residence-life-programming/"]
+    },
+    {
+        "tag": "housing_tower",
+        "responses": ["Please visit https://ccnytowers.com/#AboutTheTowers"]
+    },
+    {
+        "tag": "housing_parents",
+        "responses": ["Please visit https://ccnytowers.com/parents/"]
+    },
+    {
+        "tag": "veterans",
+        "responses": ["Please visit https://www.ccny.cuny.edu/node/841"]
+    },
+    {
+        "tag": "international_link",
+        "responses": ["Please visit https://www.ccny.cuny.edu/isss"]
+    },
+    {
+        "tag": "international_zoom",
+        "responses": ["The zoom link is https://ccny.zoom.us/j/2126508106"]
+    },
+    {
+        "tag": "international_hours",
+        "responses": ["Monday - Friday 10 AM - 4PM"]
+    },
+    {
+        "tag": "international_email",
+        "responses": ["The email address is oisss@ccny.cuny.edu"]
+    },
+    {
+        "tag": "international_faq",
+        "responses": ["Please visit http://listmanager.ccny.cuny.edu/t/5749/1027948/1367/9/"]
+    },
+    {
+        "tag": "international_contact",
+        "responses": ["Please visit https://www.ccny.cuny.edu/sites/default/files/2021-02/Spring%202021%20Newsletter.pdf"]
+    },
+    {
+        "tag": "international_i94",
+        "responses": ["Please visit https://i94.cbp.dhs.gov/I94/#/home"]
+    },
+    {
+        "tag": "international_req",
+        "responses": ["12 CREDITS UNDERGRADUATE, 9 CREDITS GRADUATE,7 CREDITS PH.D"]
+    },
+    {
+        "tag": "international_tips",
+        "responses": ["Please visit https://millermayer.com/2017/tips-for-surviving-in-a-time-of-immigration-uncertainty/"]
+    },
+    {
+        "tag": "international_daca",
+        "responses": ["Please visit https://www.ccny.cuny.edu/we-are-one-ccny/dreamers-and-daca"]
+    },
+    {
+        "tag": "international_phone",
+        "responses": ["The phone number is 212-650-8106/8107"]
+    },
+    {
+        "tag": "international_fax",
+        "responses": ["The fax number is 212-650-5833"]
+    },
+    {
+        "tag": "international_director",
+        "responses": ["Maribel Morua"]
+    },
+    {
+        "tag": "international_addr",
+        "responses": ["North Academic Center Room  1/107 160 Convent Avenue New York, NY 10031"]
+    },
+    {
+        "tag": "honors_link",
+        "responses": ["Please visit https://www.ccny.cuny.edu/honors"]
+    },
+    {
+        "tag": "honors_zoom",
+        "responses": ["The zoom link is https://ccny.zoom.us/j/4229016853"]
+    },
+    {
+        "tag": "honors_email",
+        "responses": ["The email address for honors program is cityhonors@ccny.cuny.edu"]
+    },
+    {
+        "tag": "honors_phone",
+        "responses": ["The phone number for honors program is 212-650-6917"]
+    },
+    {
+        "tag": "honors_hours",
+        "responses": ["You can reach the Honors Center, Monday through Friday from 10:30 AM to 4 PM via phone, email, and our Zoom virtual front desk."]
+    },
+    {
+        "tag": "honors_fax",
+        "responses": ["The fax number for honors program is 212-650-7337"]
+    },
+    {
+        "tag": "honors_addr",
+        "responses": ["North Academic Center Room 4/150 160 Convent Avenue New York, NY  10031"]
+    },
+    {
+        "tag": "honors_director",
+        "responses": ["Dr. Adrián Rodríguez-Contreras"]
+    },
+    {
+        "tag": "student_housing",
+        "responses": ["information about the towers can be found at https://ccnytowers.com/"]
+    },
+    {
+        "tag": "towers",
+        "responses": ["The Towers is City College’s modern on-site student residence conveniently located just a short walk from classrooms, laboratories, and all student activities. Choose from several different room layouts and enjoy a safe, comfortable work, study, and living environment. Amenities include free Wi-Fi throughout the building, free modern laundry facilities, a fitness center, outside grounds for sports or barbecues, and many other comforts. https://ccnytowers.com/"]
+    },
+    {
+        "tag": "towers_location",
+        "responses": ["The towers are located at 401 West 130th Street New York, NY 10027. more information about the towers can be found at https://ccnytowers.com/"]
+    },
+    {
+        "tag": "cafe_location",
+        "responses": ["Benny’s Café I located at 2nd floor NAC Rotunda:"]
+    },
+    {
+        "tag": "cafe_hours",
+        "responses": ["The cafeteria hours of operation can be found at https://www.ccny.cuny.edu/dining"]
+    },
+    {
+        "tag": "dining",
+        "responses": ["information about dining at CCNY can be found at https://www.ccny.cuny.edu/dining"]
+    },
+    {
+        "tag": "gym_location",
+        "responses": ["The Wingate fitness center is located at Wingate Hall, 3rd Floor 160 Convent Avenue, New York, NY 10031"]
+    },
+    {
+        "tag": "parents",
+        "responses": ["Our Parent and Family Programs create opportunities for parents and family members to have a supportive role in their student's education. You can learn more  here: https://www.ccny.cuny.edu/studentaffairs/parent-and-family-programs"]
+    },
+    {
+        "tag": "directory",
+        "responses": ["The faculty and staff directory can be found here: https://www.ccny.cuny.edu/people"]
+    },
+    {
+        "tag": "file_complaint",
+        "responses": ["Please visit https://www.ccny.cuny.edu/studentaffairs/filing-a-formal-complaint to learn more about filing a complaint"]
+    },
+    {
+        "tag": "clubs",
+        "responses": ["The department of Student Life offer and suppport 150+ student organizations. https://www.ccny.cuny.edu/activities/clubs-and-organizations"]
+    }, 
+    {
+        "tag": "is_accessible",
+        "responses": ["The AccessAbility center is commited to ensuring all students receive the appropriate accomodations. More information can be found here: https://www.ccny.cuny.edu/accessability"]
+    },
+    {
+        "tag": "accssability_location",
+        "responses": ["The AccessAbility center/Student disability services is located at the North Academic center, Room 1/218 "]
+    },
+    {
+        "tag": "accessability_contact",
+        "responses": ["The AccessAbility center/student disablilty services can be contacted by phone at 212.650.5913 or by email at disabilityservices@ccny.cuny.edu"]
+    },
+    {
+        "tag": "is_counseling",
+        "responses": ["The Health and Wellness Services gives students access to confidential counseling services and you can learn more here: https://www.ccny.cuny.edu/counseling"]
+    },
+    {
+        "tag": "health_screening",
+        "responses": ["The Health and Wellness Services gives students access to free health screenings and you can learn more here: https://www.ccny.cuny.edu/health-wellness"]
+    },
+    {
+        "tag": "medical_services",
+        "responses": ["The Student Health Medical Services include: immunizations, emergency first aid, blood pressure screenings, pregnancy testing and more. You can find out more here: https://www.ccny.cuny.edu/shs/medical-services"]
+    },
+    {
+        "tag": "safety",
+        "responses": ["The City College of New York is committed to making our campus a safe place for all of our community.  You can find out  more here: https://www.ccny.cuny.edu/studentaffairs/health-and-safety-services"]
+    },
+    {
+        "tag": "lost_found",
+        "responses": ["The Lost and Found is located at the North Academic Center, Room 4/201. You can also contact lost and found"]
+    },
+    {
+        "tag": "int_employment",
+        "responses": ["Upon beginning their studies, students on a F-1 visa are immediately eligible to work on-campus for up to 20 hours a week during the semster and up to 40 hours a week during winter break and summer vacation. A student must be in good academic standards and registered full-time before getting work permission from the Office of International Student & Scholar Services. Permission is obtained by filling out the On Campus Employment Form.  Learn more about campus employment for international students here : https://www.ccny.cuny.edu/isss/international-student-employment"]
+    },	
+    {
+        "tag": "report_crime",
+        "responses": ["Incidents can be reported in person in the Public Safety office (NAC 4/201), by phone (212-650-7777 if the crime is in process, extension 212-650-6911 after the fact) or to any uniformed officer on campus. The Office of Public Safety will assist you in reporting a crime to the NYPD as necessary."]
+    },
+    {
+        "tag": "public_safety_location",
+        "responses": ["The public sfaty office is located at the North Academic Center Room 4/201"]
+    },
+    {
+        "tag": "public_safety_contact",
+        "responses": ["The public safety office can be contacted by phone at 212-650-7777  and by email at Publicsafety@ccny.cuny.edu"]
+    },
+    {
+        "tag": "parking",
+        "responses": ["CCNY provides parking for students and faculty through the Parking permit. You can find out more here: https://www.ccny.cuny.edu/safety/parking"]
+    },
+    {
+        "tag": "id_location",
+        "responses": ["The ID office is located at The North Academic Center room 1/205"]
+    },
+    {
+      "tag":"financialaid_type",
+      "responses":["There are 2 types of financial aid: Federal aid(FAFSA) and for NY residents TAP"]
+    },
+    {
+      "tag": "financialaid_tap_calculator",
+      "responses": ["To get an estimate of how much TAP you can receive please visit this link: https://www.hesc.ny.gov/pay-for-college/financial-aid/types-of-financial-aid/grants/estimate-your-tap-award/tap-award-estimator.html"]
+    },
+    {
+      "tag": "financialaid_fafsa_calculator",
+      "responses": ["To know more about FAFSA or FSA please visit this link: https://studentaid.gov/h/apply-for-aid/fafsa"]
+    },
+    {
+      "tag": "financialaid_loan_processing_time",
+      "responses": ["Allow 4-6 weeks for processing. Your loan application will be reviewed, processed, and electronically transmitted to the federal processor for approval. Reminder, check your CCNY email address for any notifications."]
+    },
+    {
+      "tag": "financialaid_loan_amount",
+      "responses": ["For undergraduate subsidized loan you can get approximately $13,500 and for unsubsidized loan you can get approximately $6,000. For graduate unsubsidized loan the amount is $20,500"]
+    },
+    {
+      "tag": "financialaid_fws",
+      "responses": ["The Federal Work-Study program provides the opportunity for a student to earn money by working in a City College office or at an off-campus location."]
+    },
+    {
+      "tag": "financialaid_fws_tax",
+      "responses": ["Students are required to pay the (FICA) FICA tax of 7.65% on FWS earnings"]
+    },
+    {
+      "tag": "financialaid_fws_pay",
+      "responses": ["Undergraduate students get paid $17/hour and graduate students get paid $18/hour"]
+    },
+    {
+      "tag": "financialaid_fws_application",
+      "responses": ["You can apply for federal work study by visiting this link: https://ccny.studentemployment.ngwebsolutions.com/"]
+    },
+    {
+      "tag": "financialaid_fws_contact",
+      "responses": ["You can contact Federal Work Study via email at fws@ccny.cuny.edu or leave a brief message at 212-650-666"]
+    },
+    {
+      "tag": "financialaid_scholarship",
+      "responses": ["Please visit this link to know more about scholarship: https://www.ccny.cuny.edu/admissions/scholarships-awards"]
+    },
+    {
+      "tag": "financialaid_loan_fees",
+      "responses": ["For both undergraduate and graduate students the loan fees are 1.057 % of the actual loan"]
+    },
+    {
+      "tag": "financialaid_loan_rates",
+      "responses": ["For undergraduate students the loan interest rate is 3.73 % and for graduate students the loan interest rate is 5.28 %"]
+    }
+ ]
+}

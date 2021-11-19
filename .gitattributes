@@ -1,0 +1,6 @@
+chatbot filter=lfs diff=lfs merge=lfs -text
+DistilBertModel filter=lfs diff=lfs merge=lfs -text
+chatbot/** filter=lfs diff=lfs merge=lfs -text
+DistilBertModel/** filter=lfs diff=lfs merge=lfs -text
+*.sav filter=lfs diff=lfs merge=lfs -text
+model.sav filter=lfs diff=lfs merge=lfs -text
