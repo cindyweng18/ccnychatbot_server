@@ -11,10 +11,10 @@ import pandas as pd
 
 
 loaded_model = pickle.load(open("model.sav", 'rb'))
-data = json.load(open("answers.json"))
+data = json.load(open("../data/answers.json"))
 
 def get_prediction(str, model):
-    df = pd.read_csv("test_chatbot.csv")
+    df = pd.read_csv("../data/test_chatbot.csv")
     device = torch.device("cpu")
     le = LabelEncoder()
     le.fit_transform(df['Label'])
