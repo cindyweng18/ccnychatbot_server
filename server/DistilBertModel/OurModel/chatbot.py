@@ -1,3 +1,4 @@
+# Credits: https://medium.com/geekculture/simple-chatbot-using-bert-and-pytorch-part-1-2735643e0baa
 import pickle
 import torch
 import typo
@@ -72,6 +73,7 @@ def preprocessing(df):
   tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-uncased")
 
   df['Label'] = le.fit_transform(df['Label'])
+  pickle.dump(le, open("label_encoder.pkl", 'wb'))
 
   train_text, train_labels = df['Text'], df['Label']
 
