@@ -1,0 +1,17 @@
+.text {
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+.green {
+  background-color: #3cbb3c;
+  color: white;
+  border-radius: 50% 50% 0rem 50%;
+  padding: 1rem;
+}
+.red {
+  background-color: #ec3f3f;
+  color: white;
+  border-radius: 50% 50% 50% 0rem;
+  padding: 1rem;
+}

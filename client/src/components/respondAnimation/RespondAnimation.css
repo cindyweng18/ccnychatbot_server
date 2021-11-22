@@ -1,0 +1,41 @@
+.chat-res {
+  text-align: left;
+  background-image: linear-gradient(to right, #6e0fc8, #cd49e6);
+  width: fit-content;
+  max-width: 70%;
+  margin: 1rem auto 1rem 1.5rem;
+  color: white;
+  padding: 1rem;
+  border-radius: 0rem 1rem 1rem 1rem;
+  box-shadow: 0px 1px 5px #a7a7a7;
+  overflow-wrap: break-word;
+}
+
+@keyframes jumpingDots {
+  20% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.loading span {
+  width: 10px;
+  height: 10px;
+  margin: 10px 5px 0px 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  animation-name: jumpingDots;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.loading span:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.loading span:nth-child(3) {
+  animation-delay: 0.8s;
+}
