@@ -6,7 +6,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from django.views.decorators.csrf import csrf_exempt
-import DistilBertModel.OurModel.testModel
+#import DistilBertModel.OurModel.testModel
 
 
 # Create your views here.

@@ -55,14 +55,18 @@ const App = () => {
   };
 
   const handleFeedback = () => {
-    //Send last message to database
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", "localhost:8000/chat/api/message-list/", true);
-    xhr.send(
-      JSON.stringify({
-        value: "Test string",
+    //Send last user message to database after negative feedback
+    console.log(convo[convo.length - 1]["mes"]);
+    axios
+      .post("/chat/api/message-list/", {
+        value: convo[convo.length - 1]["mes"],
       })
-    );
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   };
 
   const openModal = () => {
