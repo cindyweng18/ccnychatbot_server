@@ -8,12 +8,15 @@ import Chat from "./components/chat/Chat";
 import MessageBox from "./components/messageBox/MessageBox";
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import Feedback from "./components/feedback/Feedback";
+import RespondAnimation from "./components/respondAnimation/RespondAnimation"
 
 const App = () => {
   const [convo, setConvo] = useState([]);
 
   const [botMessage, setBotMessage] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
+  const [isFeedbackOpen,setIsFeedbackOpen] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
 
   const ref = useRef();
 
@@ -36,10 +39,13 @@ const App = () => {
   const handleClick = async (e) => {
     e.preventDefault();
     //TODO: Get response from ML model using mes.
-
+    setIsLoading(true)
     await axios
       .get("/chat/api/botmessage-list/")
-      .then((response) => response.data.map((m) => setBotMessage(m.value)));
+      .then((response) => {
+        response.data.map((m) => setBotMessage(m.value))
+        setIsLoading(false)
+      });
     console.log(botMessage);
 
     if (ref.current.value.length > 0) {
@@ -51,6 +57,7 @@ const App = () => {
 
       // empty the text message field
       ref.current.value = "";
+      setIsFeedbackOpen(true)
     }
   };
 
@@ -89,7 +96,12 @@ const App = () => {
           >
             <Header openModal={openModal} />
             <Chat convo={convo} ref={messagesEndRef} />
-            <Feedback handleFeedback={handleFeedback} />
+            {isLoading &&
+              <RespondAnimation/>
+            }
+            {isFeedbackOpen &&
+              <Feedback setIsFeedbackOpen={setIsFeedbackOpen} handleFeedback={handleFeedback} />
+            }
             <MessageBox handleClick={handleClick} ref={ref} />
           </div>
         </Container>
