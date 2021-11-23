@@ -44,11 +44,12 @@ const App = () => {
       .get("/chat/api/botmessage-list/")
       .then((response) => {
         response.data.map((m) => setBotMessage(m.value))
-        setIsLoading(false)
+        //setIsLoading(false)
       });
     console.log(botMessage);
 
     if (ref.current.value.length > 0) {
+      setTimeout(()=>{//1
       let newConvo = [...convo];
       newConvo.push({ mes: ref.current.value, res: botMessage });
       setConvo(newConvo);
@@ -58,6 +59,8 @@ const App = () => {
       // empty the text message field
       ref.current.value = "";
       setIsFeedbackOpen(true)
+      setIsLoading(false)//2
+      },3000)//3
     }
   };
 
