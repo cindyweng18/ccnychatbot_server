@@ -6,7 +6,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from django.views.decorators.csrf import csrf_exempt
-import DistilBertModel.OurModel.testModel
+from chatbot_predict import get_response
 
 
 # Create your views here.
@@ -64,6 +64,7 @@ class MessageDetail (APIView):
 
 
 
+
 # Bot Message Views
 class BotMessageList (APIView):
     """
@@ -84,9 +85,9 @@ class BotMessageList (APIView):
         """
         # Get the body of the data
         data = request.data    
-
         #  Take the data from the body and call the ML model and get its response
-        print (data)
+        response = get_response (data['value'])
+        data ['value'] = response ['Response']
 
         # Serialize the response
         serializer = BotMessageSerializer (data = data)
