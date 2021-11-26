@@ -8,12 +8,15 @@ const Chat = React.forwardRef((props,ref)=>{
         <div className='paper'>
             {convo.map(item =>
                 <>
+                { item.mes?
                     <div className='chat-mes'>
                         {item.mes}
                     </div>
+                    :
                     <div className='chat-res'>
                         {item.res}
                     </div>
+                }
                 </>
             )}
             <div ref={ref}></div>

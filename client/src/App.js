@@ -38,38 +38,35 @@ const App = () => {
 
   const handleClick = async (e) => {
     e.preventDefault();
-    //TODO: Get response from ML model using mes.
-    setIsLoading(true)
-    await axios
-      .get("/chat/api/botmessage-list/")
-      .then((response) => {
-        response.data.map((m) => setBotMessage(m.value))
-        //setIsLoading(false)
-      });
-    console.log(botMessage);
 
     if (ref.current.value.length > 0) {
-      setTimeout(()=>{//1
+      
       let newConvo = [...convo];
-      newConvo.push({ mes: ref.current.value, res: botMessage });
+      newConvo.push({ mes: ref.current.value});
+      
+      setIsLoading(true)
+      await axios
+        .get("/chat/api/botmessage-list/")
+        .then((response) => {
+          response.data.map((m) => setBotMessage(m.value))
+        });
+      setIsLoading(false)
+      newConvo.push({ res: botMessage });
       setConvo(newConvo);
-
-      // send the user message to the backend
+      console.log(botMessage);
 
       // empty the text message field
       ref.current.value = "";
       setIsFeedbackOpen(true)
-      setIsLoading(false)//2
-      },3000)//3
     }
   };
 
   const handleFeedback = () => {
     //Send last user message to database after negative feedback
-    console.log(convo[convo.length - 1]["mes"]);
+    console.log(convo[convo.length - 2]["mes"]);
     axios
       .post("/chat/api/message-list/", {
-        value: convo[convo.length - 1]["mes"],
+        value: convo[convo.length - 2]["mes"],
       })
       .then(function (response) {
         console.log(response);
