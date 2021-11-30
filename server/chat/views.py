@@ -89,6 +89,8 @@ class BotMessageList (APIView):
         response = get_response (data['value'])
         data ['value'] = response ['Response']
 
+        print (data)
+        
         # Serialize the response
         serializer = BotMessageSerializer (data = data)
         if serializer.is_valid():

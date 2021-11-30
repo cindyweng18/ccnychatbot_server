@@ -8,16 +8,19 @@ import Button from '@mui/material/Button'
 
 const Feedback = (props)=>{
 
-    const {handleFeedback } = props
+    const {handleFeedback,setIsFeedbackOpen } = props
 
     const handleClick =(e)=>{
         //TODO: once clicked, check if its up or down. If its down, save the question to database. Close the feedback component as well.
-        if(e.currentTarget.value=="down"){
+        if(e.currentTarget.value ==="down"){
             handleFeedback()
             //close the component. I will do that later
+            setIsFeedbackOpen(false)
         }
         else {
             //close the component. I will do that later
+            setIsFeedbackOpen(false)
+
         }
     }
     return(
