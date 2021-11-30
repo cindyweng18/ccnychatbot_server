@@ -3,10 +3,9 @@ import re
 import torch
 import json
 import random
-import numpy as np
-import pandas as pd
+import pickle
+import torch.nn.functional as nnf
 from transformers import DistilBertTokenizer
-from sklearn.preprocessing import LabelEncoder
 
 # import os
 # print (os.getcwd())
@@ -37,17 +36,17 @@ def get_prediction(str, model):
   test_seq = torch.tensor(tokens_test_data['input_ids'])
   test_mask = torch.tensor(tokens_test_data['attention_mask'])
 
-    predicted_intent = "sorry"
-    with torch.no_grad():
-        preds = model(test_seq.to(device), test_mask.to(device))
-        prob = nnf.softmax(preds, dim=1)
-        top_p, top_class = prob.topk(1, dim = 1)
-        preds = top_p.detach().cpu().numpy()
-        print(preds[0][0])
-        predicted_class = top_class.detach().cpu().numpy()
-        if preds[0][0] > 0.7:
-          predicted_intent = le.inverse_transform(predicted_class.ravel())[0]
-      return predicted_intent
+  predicted_intent = "sorry"
+  with torch.no_grad():
+      preds = model(test_seq.to(device), test_mask.to(device))
+      prob = nnf.softmax(preds, dim=1)
+      top_p, top_class = prob.topk(1, dim = 1)
+      preds = top_p.detach().cpu().numpy()
+      print(preds[0][0])
+      predicted_class = top_class.detach().cpu().numpy()
+      if preds[0][0] > 0.7:
+        predicted_intent = le.inverse_transform(predicted_class.ravel())[0]
+  return predicted_intent
 
 
 def get_response(message, loaded_model = loaded_model): 
@@ -57,5 +56,4 @@ def get_response(message, loaded_model = loaded_model):
     if i["tag"] == intent:
       result = random.choice(i["responses"])
       break
-  # print(f"Response : {result}")
   return {"Intent": intent, "Response": result}
