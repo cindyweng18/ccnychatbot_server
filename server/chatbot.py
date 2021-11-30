@@ -20,7 +20,7 @@ def get_data():
   Reads CSV as a DataFrame
   """
 
-  df = pd.read_csv("../data/test_chatbot.csv")
+  df = pd.read_csv("test_chatbot.csv")
   # print(df.head())
   return df
 
@@ -209,13 +209,11 @@ def main():
   """
     Main function
   """
-  # cindy: change device type depending on cuda or not
   device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
   df = get_data()
 
-  # cindy: create a new csv with typos included
   df_typos, train_labels, train_dataloader = preprocessing(df)
-  df_typos.to_csv('../data/dataset_typos')
+  # df_typos.to_csv('../data/dataset_typos')
 
   model, weights = define_model(device, train_labels)
   training_model(model, train_dataloader, device, weights)
