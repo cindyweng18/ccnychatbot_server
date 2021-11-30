@@ -45,6 +45,7 @@ const App = () => {
       
       let newConvo = [...convo];
       newConvo.push({ mes: ref.current.value});
+      setConvo(newConvo)
       
       setIsLoading(true)
       await axios.post ('/chat/api/botmessage-list/', {value: ref.current.value})
