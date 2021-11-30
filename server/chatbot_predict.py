@@ -18,35 +18,36 @@ data = json.load(open("answers.json"))
 
 
 def get_prediction(str, model):
+  device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    df = pd.read_csv("test_chatbot.csv")
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    le = LabelEncoder()
-    le.fit_transform(df['Label'])
-    tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-uncased")
-    str = re.sub(r'[^a-zA-Z ]+', '', str)
-    test_text = [str]
-    model.eval()
+  le = pickle.load(open("label_encoder.pkl", 'rb'))
 
-    tokens_test_data = tokenizer(
-    test_text,
-    padding=True,
-    truncation=True,
-    return_token_type_ids=False
-    )
-    test_seq = torch.tensor(tokens_test_data['input_ids'])
-    test_mask = torch.tensor(tokens_test_data['attention_mask'])
+  tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-uncased")
+  str = re.sub(r'[^a-zA-Z ]+', '', str)
+  test_text = [str]
+  model.eval()
 
-    #   result = None
+  tokens_test_data = tokenizer(
+  test_text,
+  padding=True,
+  truncation=True,
+  return_token_type_ids=False
+  )
+
+  test_seq = torch.tensor(tokens_test_data['input_ids'])
+  test_mask = torch.tensor(tokens_test_data['attention_mask'])
+
+    predicted_intent = "sorry"
     with torch.no_grad():
         preds = model(test_seq.to(device), test_mask.to(device))
-        preds = preds.detach().cpu().numpy()
-        # result = preds[0]
-        preds_index = np.argmax(preds, axis = 1)
-
-    # print("Intent Identified: ", le.inverse_transform(preds_index)[0])
-    return le.inverse_transform(preds_index)[0]
-
+        prob = nnf.softmax(preds, dim=1)
+        top_p, top_class = prob.topk(1, dim = 1)
+        preds = top_p.detach().cpu().numpy()
+        print(preds[0][0])
+        predicted_class = top_class.detach().cpu().numpy()
+        if preds[0][0] > 0.7:
+          predicted_intent = le.inverse_transform(predicted_class.ravel())[0]
+      return predicted_intent
 
 
 def get_response(message, loaded_model = loaded_model): 
