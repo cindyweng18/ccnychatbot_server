@@ -39,24 +39,27 @@ const App = () => {
   const handleClick = async (e) => {
     e.preventDefault();
 
+    let ab = ""
+
     if (ref.current.value.length > 0) {
       
       let newConvo = [...convo];
       newConvo.push({ mes: ref.current.value});
       
       setIsLoading(true)
+      await axios.post ('/chat/api/botmessage-list/', {value: ref.current.value})
+      .then (response => console.log (response))
+      
       await axios
         .get("/chat/api/botmessage-list/")
         .then((response) => {
-          response.data.map((m) => setBotMessage(m.value))
+          response.data.map((m) => ab = m.value)
         });
         // send the user message to the backend
-        await axios.post ('/chat/api/botmessage-list/', {value: ref.current.value})
-        .then (response => console.log (response))
       setIsLoading(false)
-      newConvo.push({ res: botMessage });
+      newConvo.push({ res: ab });
       setConvo(newConvo);
-      console.log(botMessage);
+      console.log(ab);
       // empty the text message field
       ref.current.value = "";
       setIsFeedbackOpen(true)
