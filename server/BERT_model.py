@@ -13,7 +13,7 @@ class BERT_Model(nn.Module):
        # dense layer
        self.fc1 = nn.Linear(768,512)
        self.fc2 = nn.Linear(512,256)
-       self.fc3 = nn.Linear(256,161) #cindy: changed class number 146 to 161
+       self.fc3 = nn.Linear(256,172)
        #softmax activation function
        self.softmax = nn.LogSoftmax(dim=1)
        #define the forward pass
