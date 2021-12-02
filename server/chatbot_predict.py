@@ -1,3 +1,4 @@
+# Import Libraries
 import joblib
 import re
 import torch
@@ -7,16 +8,22 @@ import pickle
 import torch.nn.functional as nnf
 from transformers import DistilBertTokenizer
 
-# import os
-# print (os.getcwd())
-
+# Set up device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+# Load trained model
 loaded_model = joblib.load("model.sav")
+
+# Load JSON file with responses
 data = json.load(open("answers.json"))
 
 
 def get_prediction(str, model):
+  """
+    Tokenizes a string (usually user's input/question) to feed into the model and get its predicted label/intent.
+    Using Torch's softmax function, we obtain the model's probabilities on each class based on the string inputted.
+    Returns the intent with the highest probability if it's over 0.7, otherwise, return the default/sorry intent.
+  """
   device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
   le = pickle.load(open("label_encoder.pkl", 'rb'))
@@ -50,6 +57,9 @@ def get_prediction(str, model):
 
 
 def get_response(message, loaded_model = loaded_model): 
+  """
+    Returns a random predicted intent's response from the JSON file.
+  """
   intent = get_prediction(message, loaded_model)
   result = ""
   for i in data['intents']: 
