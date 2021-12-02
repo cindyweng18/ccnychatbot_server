@@ -10,7 +10,7 @@ from time import sleep
 from transformers import AdamW
 from sklearn.preprocessing import LabelEncoder
 from transformers import DistilBertTokenizer, DistilBertModel
-from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
+from torch.utils.data import TensorDataset, DataLoader, RandomSampler
 from sklearn.utils.class_weight import compute_class_weight
 from BERT_model import BERT_Model
 
@@ -19,14 +19,15 @@ def get_data():
   """
   Reads CSV as a DataFrame
   """
-
   df = pd.read_csv("test_chatbot.csv")
-  # print(df.head())
   return df
 
 
 def addTypos (df,df2,df3,df4,df5,df6):
-   for i in range(len(df)): 
+  """
+    Generate typos (missing character, extra character, character swap, nearby character, repeated character)
+  """
+  for i in range(len(df)): 
     myStrErrer = typo.StrErrer(df.loc[i,'Text'], seed=3) 
     myStrErrer2 = typo.StrErrer(df.loc[i,'Text'], seed=3)
     myStrErrer3 = typo.StrErrer(df.loc[i,'Text'], seed=3)
@@ -42,8 +43,7 @@ def addTypos (df,df2,df3,df4,df5,df6):
 
 def preprocessing(df):
   """
-    Adds typos to the dataset (missing character, extra character, character swap, nearby character, repeared character), 
-    label encodes, and tokenizes questions from dataset
+    Adds typos to the dataset, label encodes, and tokenizes questions from dataset
   """
   #creating empty dataframes for each error type to append later
   d = {'Text': [], 'Label': []}
@@ -69,17 +69,18 @@ def preprocessing(df):
   df = df.append(df5,ignore_index=True)
   df = df.append(df6,ignore_index=True)
 
+  # Encode each label and saves the encoder to be used for prediction
   le = LabelEncoder()
-  tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-uncased")
-
   df['Label'] = le.fit_transform(df['Label'])
   pickle.dump(le, open("label_encoder.pkl", 'wb'))
 
+  # Split dataset into text and labels
   train_text, train_labels = df['Text'], df['Label']
 
+  # Tokenizes the text (questions) dataset to feed to model
+  tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-uncased")
   tokens_train = tokenizer(
       train_text.tolist(),
-      # max_length = max_seq_len,
       padding=True,
       truncation=True,
       return_token_type_ids=False
@@ -94,7 +95,6 @@ def preprocessing(df):
   train_sampler = RandomSampler(train_data)
   train_dataloader = DataLoader(train_data, sampler=train_sampler, batch_size=batch_size) #121
 
-  # Cindy: returns modified df
   return df, train_labels, train_dataloader
 
 
@@ -123,7 +123,7 @@ def train(model, train_dataloader, device, weights):
     Train function which calculates training loss
   """
 
-    # define the optimizer
+  # define the optimizer
   optimizer = AdamW(model.parameters(), lr = 1e-3)
 
   # loss function
@@ -162,8 +162,6 @@ def train(model, train_dataloader, device, weights):
         # clear calculated gradients
         optimizer.zero_grad()
 
-        # We are not using learning rate scheduler as of now
-        # lr_sch.step()
         # model predictions are stored on GPU. So, push it to CPU
         preds=preds.detach().cpu().numpy()
         # append the model predictions
@@ -182,7 +180,7 @@ def train(model, train_dataloader, device, weights):
 
 def training_model(model, train_dataloader, device, weights):
   """
-    Trains model over 200 epochs and saves the model using Pickle
+    Trains model over 25 epochs and saves the model using Pickle
   """
 
   train_losses=[]

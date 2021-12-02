@@ -1,6 +1,10 @@
 {
   "intents": [
     {
+      "tag":"sorry",
+      "responses": ["I'm sorry, can you repeat that?", "I'm sorry, I didn't understand that", "I'm sorry, can you say that again?"]
+    },
+    {
         "tag": "greeting",
         "responses": ["Howdy Partner!", "Hello", "How are you doing?", "Greetings!", "How do you do?"]
     },
