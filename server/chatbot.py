@@ -185,7 +185,6 @@ def training_model(model, train_dataloader, device, weights):
 
   train_losses=[]
 
-  #cindy: changed epochs
   epochs = 25
   for epoch in range(epochs):
       

@@ -1,8 +1,8 @@
 {
   "intents": [
     {
-      "tag":"sorry",
-      "responses": ["I'm sorry, can you repeat that?", "I'm sorry, I didn't understand that", "I'm sorry, can you say that again?"]
+        "tag":"sorry",
+        "responses": ["I'm sorry, can you repeat that?", "I'm sorry, I didn't understand that", "I'm sorry, can you say that again?"]
     },
     {
         "tag": "greeting",
@@ -717,6 +717,50 @@
   {
       "tag": "study_areas",
       "responses": ["The areas of study offered at City College can be found on https://www.ccny.cuny.edu/academics/areas-of-study"]
+  },
+  {
+      "tag":"directions",
+      "responses":["By Train: take the #1 local train to 137th St and Broadway, walk up to 138th st three blocks to Convent Ave; take the A or D expresss train or the B or C local train to 145th St and St. Nicholas Ave, walk west one block to 145th St and Convent Ave then south to 138th st. The CCNY Shuttle Bus makes regular stops to this subway during the day. For more information, please visit ccny.cuny.edu/about/directions or go to maps.google.com"]
+  },
+  {
+      "tag":"shuttle_bus",
+      "responses":["The CCNY Shuttle Bus service make stops at these locations: Marshak Building at Convent Ave, 145TH St and St. Nicholas Ave, NAC building at Convent Ave, and 125th St and St. Nicholas Ave. For more information, please visit ccny.cuny.edu/about/gettinghere"]
+  },
+  {
+      "tag":"academic_calendar",
+      "responses":["Please visit https://www.ccny.cuny.edu/registrar/academic-calendar for more information about academic calendars."]
+  },
+  {
+      "tag":"benny_store",
+      "responses":["Please visit https://www.bennys-campus-store.myshopify.com for more information about Benny's Store."]
+  },
+  {
+      "tag":"bulletins",
+      "responses":["To see a list of courses offered during a school year, please visit https://www.www.ccny.cuny.edu/registrar/bulletins and select the school year and then Courses to view all the courses offered during that school year."]
+  },
+  {
+      "tag":"library_research_help",
+      "responses":["Reference Librarians are available via chat, phone (212-650-7611), text (646-350-2717), email (reference@ccny.cuny.edu), and at the Reference Desk on the 2nd floor of the Cohen Library. We are glad to provide research help to students, faculty, and visiting researchers. For more information, please visit https://www.library.ccny.cuny.edu/askus"]
+  },
+  {
+      "tag":"library_help",
+      "responses":["If you have questions about borrowing, or renewing your library account, please visit us at the circulation desk on the 2nd floor of the Cohen Library or you can call us at 212-650-7155 or email us at circdesk@ccny.cuny.edu."]
+  },
+  {
+      "tag":"imedia",
+      "responses":["The iMedia Reservaation Desk provides audio-visual, presentation resources and services in support of instruction, scholarly communications, and other activities consistent with the City College of New York's mission. For more information, please visit https://www.ccny.cuny.edu/it/imedia"]
+  },
+  {
+      "tag":"password_reset",
+      "responses":["To reset your password, please visit https://www.reset.ccny.cuny.edu"]
+  },
+  {
+      "tag":"it_help",
+      "responses":["For more information, please visit https://www.ccny.cuny.edu/it/help. You can also call us at 212-650-7878 or email us at servicedesk@ccny.cuny.edu"]
+  },
+  {
+      "tag":"social_media",
+      "responses":["You can find us on Facebook (https://www.facebook.com/TheCityCollegeofNewYork), Twitter (https://www.twitter.com/citycollegeny), Instagram (https://www.instagram.com/ccnycitycollege), and Youtube (https://www.youtube.com/user/citycollegeofny)"]
   }
  ]
 }
